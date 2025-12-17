@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacticies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 1rem;
+        }
+        .menu {
+            list-style: none;
+            padding: 0;
+            width: 90%;
+            max-width: 400px;
+        }
+        .menu li {
+            background: #222;
+            margin: 0.6rem 0;
+            padding: 0.8rem 1rem;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 1.2rem;
+            transition: 0.2s ease-in-out;
+        }
+        .menu li:hover {
+            background: #444;
+        }
+        .menu li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+        }
+        footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tacticies</h1>
+
+    <ul class="menu">
+        <li><a href="#">GAMES</a></li>
+        <li><a href="#">TELEGRAM GAMES</a></li>
+        <li><a href="#">SOFTWARES</a></li>
+        <li><a href="#">TOOLS</a></li>
+        <li><a href="#">MODS</a></li>
+        <li><a href="#">ANIME WEBSITES</a></li>
+        <li><a href="#">LIVE WALLPAPER</a></li>
+        <li><a href="#">SECRET STUFF</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">GTA 6 COUNTDOWN</a></li>
+        <li><a href="#">SOCIALS</a></li>
+    </ul>
+
+    <footer>© 2025 Tacticies</footer>
+
+</body>
+</html>
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
